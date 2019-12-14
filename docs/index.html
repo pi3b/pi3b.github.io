@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -57,21 +57,21 @@
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       plugins: [
         function (hook, vm) {
-          // hook.beforeEach(function (html) {
-          //   if (/githubusercontent\.com/.test(vm.route.file)) {
-          //     url = vm.route.file
-          //       .replace('raw.githubusercontent.com', 'github.com')
-          //       .replace(/\/master/, '/blob/master')
-          //   } else {
-          //     url = 'https://github.com/docsifyjs/docsify/blob/master/docs/' + vm.route.file
-          //   }
-          //   var editHtml = '[:memo: Edit Document](' + url + ')\n'
+          hook.beforeEach(function (html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+            } else {
+              url = 'https://github.com/pi3b/pi3b.github.io/blob/master/docs/' + vm.route.file
+            }
+            var editHtml = ''//[:memo: Edit Document](' + url + ')\n'
 
-          //   return editHtml
-          //     + html
-          //     + '\n\n----\n\n'
-          //     + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
-          // })
+            return editHtml
+              + html
+              // + '\n\n----\n\n'
+              // + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+          })
         },
         // DocsifyCodefund.create('fae1f9a4-870c-4c25-b8e0-c80464f7a95c')
       ]
