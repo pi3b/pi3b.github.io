@@ -1,0 +1,8 @@
+- [StateManager介绍](readme.md#StateManager介绍)
+- [什么是StateManager](readme.md#什么是StateManager)
+- [StateManager的由来](readme.md#StateManager的由来)
+- [StateManager的特点](readme.md#StateManager的特点)
+- [快速上手](start.md)
+- [StateManager目录结构](start.md#StateManager目录结构)
+- [StateManager简单使用步骤](start.md#StateManager简单使用步骤)
+- [官方QQ交流群学习：244671697](start.md#StateManager快速上手)
