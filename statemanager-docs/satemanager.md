@@ -3,7 +3,7 @@
 
 ## 什么是StateManager
 
-> StateManager是专为上位机开发人员设计的，用于工业自动化开发的状态机框架
+> StateManager是专为上位机开发人员设计的，用于工业智能化开发的状态机框架
 
 ## StateManager的由来
 传统的上位机工具软件如WINCC、组态王、INTOUCH、LabView，通用性强，其功能细化至界面的拖拽、通讯点位的下拉配置等，对于缺乏编程基础的开发人员来说，上手快，方便快捷。
