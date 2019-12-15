@@ -27,7 +27,8 @@
   <script>
     window.$docsify = {
       alias: {
-        // '/.*/_(.*).md': '/$1.md',
+        '/(.*)/_(.*).md': '/$1/$2.md',
+        '/_(.*).md': '/$1.md',
         '/zh-cn/(.*)': '$1',
         '/es/(.*)': 'docs/$1'
       },
@@ -58,19 +59,22 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            if (/githubusercontent\.com/.test(vm.route.file)) {
-              url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/raw/master')
-            } else {
-              url = 'https://github.com/pi3b/pi3b.github.io/raw/master/docs/' + vm.route.file
+    //         if (/githubusercontent\.com/.test(vm.route.file)) {
+				// console.log(vm.route.file+'->')
+    //           url = vm.route.file
+    //             .replace('raw.githubusercontent.com', 'github.com')
+    //             .replace(/\/master/, '/raw/master')
+				// console.log(vm.route.file+'->')
+    //         } else {
+				console.log(vm.route.file)
+				// url = 'https://github.com/pi3b/pi3b.github.io/raw/master/docs/' + vm.route.file
 			  // https://raw.githubusercontent.com/pi3b/pi3b.github.io/master/docs/_media/favicon.ico
 			  // https://github.com/pi3b/pi3b.github.io/raw/master/docs/_media/favicon.ico
-            }
-            var editHtml = ''//[:memo: Edit Document](' + url + ')\n'
+            // }
+            // var editHtml = ''//[:memo: Edit Document](' + url + ')\n'
 
-            return editHtml
-              + html
+            // return editHtml
+            //   + html
               // + '\n\n----\n\n'
               // + '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
           })
