@@ -58,12 +58,14 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            if (/githubuserconten1t\.com/.test(vm.route.file)) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master')
+                .replace(/\/master/, '/raw/master')
             } else {
-              url = 'https://github.com/pi3b/pi3b.github.io/blob/master/docs/' + vm.route.file
+              url = 'https://github.com/pi3b/pi3b.github.io/raw/master/docs/' + vm.route.file
+			  // https://raw.githubusercontent.com/pi3b/pi3b.github.io/master/docs/_media/favicon.ico
+			  // https://github.com/pi3b/pi3b.github.io/raw/master/docs/_media/favicon.ico
             }
             var editHtml = ''//[:memo: Edit Document](' + url + ')\n'
 
