@@ -1,5 +1,5 @@
 - [StateManager介绍](satemanager.md#StateManager介绍)
-- [什么是StateManager](satemanager.md#什么是StateManager)
+- [StateManager用来解决什么？](satemanager.md#StateManager用来解决什么？)
 - [StateManager的由来](satemanager.md#StateManager的由来)
 - [StateManager的特点](satemanager.md#StateManager的特点)
 - [快速上手](start.md)
