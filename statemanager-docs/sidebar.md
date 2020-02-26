@@ -3,6 +3,10 @@
 - [StateManager的由来](satemanager.md#StateManager的由来)
 - [StateManager的特点](satemanager.md#StateManager的特点)
 - [快速上手](start.md)
+- 功能演示
+-- [功能演示-一个简单的示例](demo-simple.md#一个简单的示例)
+-- [功能演示-常用组件的使用](demo-components-using.md#常用组件的使用)
+
 - [StateManager目录结构](start.md#StateManager目录结构)
 - [StateManager简单使用步骤](start.md#StateManager简单使用步骤)
 - [官方QQ群：244671697](start.md#StateManager快速上手)
