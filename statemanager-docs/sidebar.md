@@ -1,15 +1,10 @@
 - [StateManager介绍](satemanager.md#StateManager介绍)
-- [StateManager用来解决什么？](satemanager.md#StateManager用来解决什么？)
-- [StateManager的由来](satemanager.md#StateManager的由来)
-- [StateManager的特点](satemanager.md#StateManager的特点)
 - [快速上手](start.md)
+- [StateManager目录结构](start.md#StateManager目录结构)
 - [功能演示-一个简单的示例](demo-simple.md#一个简单的示例)
 - [功能演示-常用组件的使用](demo-components-using.md#常用组件的使用)
--- [连接PLC（使用了第三方组件）](demo-连接PLC.md#连接PLC（使用了第三方组件）)
--- [连接微软数据库](demo-连接微软数据库.md#连接微软数据库)
--- [Socket组件、报警组件](demo-Socket组件.md#Socket组件、报警组件)
+-- [1.连接PLC（使用了第三方组件）](demo-连接PLC.md#1.连接PLC（使用了第三方组件）)
+-- [2.连接微软数据库](demo-连接微软数据库.md#2.连接微软数据库)
+-- [3.Socket组件、报警组件](demo-Socket组件.md#3.Socket组件、报警组件)
 
-
-- [StateManager目录结构](start.md#StateManager目录结构)
-- [StateManager简单使用步骤](start.md#StateManager简单使用步骤)
-- [官方QQ群：244671697](start.md#StateManager快速上手)
+- 官方QQ群：244671697

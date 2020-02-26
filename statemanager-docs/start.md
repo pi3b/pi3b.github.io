@@ -1,4 +1,10 @@
 # 快速上手
+## StateManager快速上手
+1.直接运行程序目录中的 SMCore.exe。  
+2.从右下角托盘图标点右键->执行控制(或连接管理、报警列表)，查看实例列表、连接列表、报警列表的界面。  
+3.打开Script目录的js/vbs等文件，修改其中脚本内容，然后在“执行控制”相应的行点击右键->复位，观察执行效果。  
+4.更多功能，可加入官方QQ交流群学习：244671697  
+
 ## StateManager目录结构
 bin 二进制文件，含三方插件等    
 --debug    
@@ -28,12 +34,6 @@ SMConnectionHsl  此文件夹为SMConnectionHsl源代码
 SMConnectionSocket  此文件夹为SMConnectionSocket源代码  
 StateManager.sln  解决方案  
 
-
-## StateManager快速上手：
-1.直接运行程序目录中的 SMCore.exe。  
-2.从右下角托盘图标点右键->执行控制(或连接管理、报警列表)，查看实例列表、连接列表、报警列表的界面。  
-3.打开Script目录的js/vbs等文件，修改其中脚本内容，然后在“执行控制”相应的行点击右键->复位，观察执行效果。  
-4.更多功能，可加入官方QQ交流群学习：244671697  
 
 
 
