@@ -60,7 +60,7 @@ function StateFinit(so)
 }
 ```
 
-###### 结果
+###### 结果如下：
 
 ![](demo-simple_files/2.gif)
 
