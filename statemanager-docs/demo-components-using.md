@@ -52,11 +52,11 @@ function StateFinit(so)
 
 ![](demo-components-using_files/1.jpg)
 
-2. 执行控制组件（统一管理所有实例的组件）
+2. 执行控制组件（统一管理所有实例的组件，显示执行过程，也可以控制所有实例的手自动切换、重置脚本、重载C#类库等）
 
 ![](demo-components-using_files/2.jpg)
 
-3. 报警组件
+3. 报警组件（收集报警信息、报警弹窗等功能）
 
 ![](demo-components-using_files/3.jpg)
 ![](demo-components-using_files/4.jpg)
@@ -66,6 +66,8 @@ function StateFinit(so)
 5. 连接sqlserver/oracle数据库的组件
 
 6. 连接Socket的组件。
+
+7. HttpApi组件（实现简单的Http客户端和服务端功能）
 
 
 其他组件陆续开发中。。。也欢迎大家共同参与开发！（详加左侧QQ群）
