@@ -7,5 +7,6 @@
 -- [2.连接微软数据库](demo-连接微软数据库.md#2.连接微软数据库)
 -- [3.Socket组件、报警组件](demo-Socket组件.md#3.Socket组件、报警组件)
 -- [4.HttpApi组件](demo-HttpApi组件.md#4.HttpApi组件)
+-- [5.搭建OPC服务器](demo-opc-server.md#5.搭建OPC服务器)
 
 - 官方QQ群：244671697
