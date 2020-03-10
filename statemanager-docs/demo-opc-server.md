@@ -1,6 +1,6 @@
 # 5.搭建OPC服务器
 这个演示将使用StateManager的连接资源来快速搭建OPC服务器，实现自定义数据来源的OPC服务。
-服务器采用delphi编写的SMOPCServer.exe，它通过C#编写的SMOPCDevice.dll（ActiveX组件），创建了StateManager状态机并访问其中配置的连接资源。
+服务器采用delphi编写的[SMOPCServer.exe](https://github.com/pi3b/SMOPCServer-D7)，它通过C#编写的[SMOPCDevice.dll](https://github.com/pi3b/StateManager/tree/master/SMOPCDevice)（ActiveX组件），创建了StateManager状态机并访问其中配置的连接资源。（[示例程序](https://github.com/pi3b/StateManager/releases/download/v2.1/demo-opc-server.zip)）
 
 连接资源的配置代码：SMOPCDevice.json
 ```json
